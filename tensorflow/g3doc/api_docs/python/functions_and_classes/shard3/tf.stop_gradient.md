@@ -21,6 +21,8 @@ to pretend that the value was a constant. Some examples include:
    through the graph that generated the samples from the model.
 *  Adversarial training, where no backprop should happen through the adversarial
    example generation process.
+*  Batch Renormalization, where the parameters r and d needs to be treated as constant
+   and updated by externally.
 
 ##### Args:
 
